@@ -12,7 +12,7 @@ public class Client {
 
         try {
 
-            socket = new Socket("127.0.0.1",8080);
+            socket = new Socket("127.0.0.1",8000);
 
             DataInputStream fromServer = new DataInputStream(socket.getInputStream());
             DataOutputStream toServer = new DataOutputStream(socket.getOutputStream());
